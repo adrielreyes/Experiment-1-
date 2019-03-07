@@ -1,0 +1,22 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std; 
+int main() 
+{
+	int mass;
+	mass = mass;
+	cout <<"Enter Mass = " << endl;
+	cin >> mass;
+	
+	int density;
+	density = density;
+
+	cout <<"Enter Density = " << endl;
+	cin >> density;
+
+	cout << "mass/density = " << endl;
+
+	_getch();
+	return 0;
+}
