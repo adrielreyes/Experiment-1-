@@ -1,0 +1,22 @@
+#include <iostream>
+#include <conio.h>
+#include <string> 
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+	cout << "Box = " << 250 * 5750 << endl;
+	cout << "Sideline = " << 100 * 28000 << endl;
+	cout << "Premium = " << 50 * 3570 << endl;
+	cout << "General_Admission = " << 25 * 18750 << endl;
+	
+	cout << "Ticket_Sales = " << setprecision(2) << 1437500 + 2800000 + 178500 + 468750 << endl;
+
+	cout << "Ticket_Sold = " << setprecision(2) << 5750 + 28000 + 3570 + 18750 << endl;
+	
+
+	_getch();
+    return 0;
+}
